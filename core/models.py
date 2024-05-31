@@ -140,7 +140,7 @@ class MessageGroup:
 
     @property
     def created_at(self):
-        return self.messages[0].human_created_at
+        return self.messages[0].created_at
 
     @property
     def type(self):
